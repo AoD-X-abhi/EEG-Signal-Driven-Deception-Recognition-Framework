@@ -76,3 +76,23 @@ graph TD
 *High-frequency noise and ocular peaks significantly attenuated.*
 
 ---
+
+## Requirements
+
+| Library | Version | Badge |
+|---------|---------|-------|
+| **Python** | `3.9+` | ![Python](https://img.shields.io/badge/python-3.9%2B-blue?logo=python&logoColor=white) |
+| **scikit-learn** | `>=1.3` | ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3%2B-orange?logo=scikit-learn&logoColor=white) |
+| **SciPy** | `>=1.10` | ![SciPy](https://img.shields.io/badge/SciPy-1.10%2B-blue?logo=scipy&logoColor=white) |
+| **NumPy** | `>=1.21` | ![NumPy](https://img.shields.io/badge/NumPy-1.21%2B-blue?logo=numpy&logoColor=white) |
+| **Matplotlib** | `>=3.7` | ![Matplotlib](https://img.shields.io/badge/Matplotlib-3.7%2B-red?logo=matplotlib&logoColor=white) |
+| **Seaborn** | `latest` | ![Seaborn](https://img.shields.io/badge/Seaborn-latest-teal?logo=seaborn&logoColor=white) |
+| **tqdm** | `latest` | ![tqdm](https://img.shields.io/badge/tqdm-latest-green?logo=tqdm&logoColor=white) |
+| **pandas** | `latest` | ![pandas](https://img.shields.io/badge/pandas-latest-blue?logo=pandas&logoColor=white) |
+
+---
+
+### Install with:
+
+```bash
+pip install scikit-learn scipy numpy matplotlib seaborn tqdm pandas
