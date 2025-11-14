@@ -95,4 +95,4 @@ graph TD
 ### Install with:
 
 ```bash
-pip install scikit-learn scipy numpy matplotlib seaborn tqdm pandas
+pip install mne mne-icalabel asrpy scikit-learn scipy numpy matplotlib seaborn tqdm pandas
