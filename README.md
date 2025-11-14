@@ -1,9 +1,5 @@
 # EEG Signal Driven Deception Recognition Framework 
-![Python](https://img.shields.io/badge/python-3.9%2B-blue)  
-![MNE](https://img.shields.io/badge/MNE-Python-orange)  
-![scikit--learn](https://img.shields.io/badge/scikit--learn-1.3%2B-green)  
-![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-yellow.svg)  
-![Status](https://img.shields.io/badge/status-active-success)  
+![Python](https://img.shields.io/badge/python-3.9%2B-blue)  ![MNE](https://img.shields.io/badge/MNE-Python-orange)  ![scikit--learn](https://img.shields.io/badge/scikit--learn-1.3%2B-green)  ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-yellow.svg)  ![Status](https://img.shields.io/badge/status-active-success)  
 
 > **A comprehensive EEG preprocessing and meta-analysis pipeline for detecting neural correlates of deception using a competitive two-player game dataset.**
 
@@ -64,19 +60,19 @@ graph TD
 ## Observations & Results
 
 ### 1. Topographic Importance Maps per Frequency Band
-![Topomaps](observations\mne.png)  
+![Topomaps](observations/mne.png)  
 *Gamma and beta show strongest lateralization during deception.*
 
 ---
 
 ### 2. ICA Components (ICLabel Classified)
-![ICA Components](observations\ica_comp.png)  
+![ICA Components](observations/ica_comp.png)  
 *Eye blinks, muscle, and cardiac components automatically flagged and removed.*
 
 ---
 
 ### 3. Power Spectral Density (PSD): Before vs After ICA
-![PSD Comparison](observations\psd.png)  
+![PSD Comparison](observations/psd.png)  
 *High-frequency noise and ocular peaks significantly attenuated.*
 
 ---
