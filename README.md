@@ -40,7 +40,7 @@ This repository implements a **full EEG analysis pipeline** from raw BrainVision
 
 ## Pipeline Overview
 
-```mermaid
+```
 graph TD
     A[Raw .vhdr Files] --> B[Load + Event Sync]
     B --> C[Downsample to 100 Hz]
